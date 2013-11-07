@@ -1,0 +1,27 @@
+site_id, 34 categories 
+visitor_location_country_id,  218 categories
+visitor_hist_starrating, Almost no 1 rating and lot of 3; 3.5; 4 ratings
+visitor_hist_adr_usd, avg 176.588512; range 0-2768
+prop_country_id, 172 categories
+prop_id, 136886 categories
+prop_starring, Almost no 1 rating; majority 3; large number of 0 (unknown)
+prop_review_score, increases monotonically; no 1 rating; significant number of 0
+prop_brand_bool, 40-60 split between 0-1
+prop_location_score1, mean 2.875978; range 0-6.980000
+prop_location_score2, mean: 0.13; range 0-1
+prop_log_historical_price, mean: 4.31; range 0-6.21
+position, 40 categories (train only)
+price_usd, mean: 241.782521; range: 0-19726328
+promotion_flag, 80-20 split between 0-1
+gross_bookings_usd, mean: 386.530099; range: 0-167740 (train only)
+srch_destination_id, 23715 categories
+srch_length_of_stay, 41 categories
+srch_booking_window, 448 categories
+srch_adults_count, 9 categories
+srch_children_count, 10 categories
+srch_room_count, 8 categories
+srch_saturday_night_bool, 50-50 split between 0-1
+srch_query_affinity_score, mean: -24; range: -326 - -2
+orig_destination_distance, mean: 1307; range: 0-11692
+random_bool, 70-30 split 0-1
+

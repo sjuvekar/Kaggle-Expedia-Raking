@@ -1,0 +1,9 @@
+{
+    "train_feature_path":    "../Features/features.csv",
+    "test_feature_path":     "../Features/test_features.csv",
+    "train_test_split_path": "../Features/train_test_split.pickle",
+    "model_path":            "../Models/basicPythonBenchmark.pickle",
+    "submission_path":       "../Submissions/basicPythonBenchmark.csv",
+    "train_path":            "../Data/train.csv",
+    "test_path":             "../Data/test.csv"
+}

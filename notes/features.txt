@@ -1,0 +1,100 @@
+Objective function Y:
+=====================
+5 -> if booking_bool is true
+1 -> if booking_bool is false, but click_bool is true
+0 -> o/w
+
+site_id:
+--------
+Rank of site_id basesd on frequency
+% of site_id found in data
+
+visitor_location_country_id:
+---------------------------
+Rank of visitor_location_country_id based on frequency
+% of visitor_location_country_id found in data
+
+visitor_hist_starrating:
+------------------------
+Rank of the starrating by frequency
+percent of total starrating
+A binary feature whether NaN
+
+visitor_hist_adr_usd
+--------------------
+A binary feature whether NaN
+*Rank of price purchase by frequency
+*Rank of price purchase by USD amount
+percent of total values in the this price 
+
+prop_country_id
+---------------
+Rank of country by frequency
+percent of total country ids at current
+
+prop_id
+-------
+*Rank of prop id by frequency
+percent of total prop ids
+
+prop_starrating
+---------------
+Rank of the starrating by frequency
+percent of total starrating
+A binary feature whether NaN
+
+prop_location_score1
+--------------------
+Rank of the score by frequency
+percent of total rank
+
+prop_location_score2
+--------------------
+*Rank of the score by frequency
+percent of total rank
+
+prop_log_historical_price
+-------------------------
+Binary feature if price = 0
+Rank of price by frequency
+Percent of total prices
+
+price_usd
+---------
+Check if price is sane (2 if price > 10000, 1 if price > 1000)
+
+srch_destination_id
+-------------------
+percent of total ids
+*Rank of the current id by frequency
+
+srch_length_of_stay
+-------------------
+percent of total
+Rank by frequency
+
+srch_booking_window
+-------------------
+percent of total
+Rank by frequency
+
+(* - takes too long to generate, disabled for now)
+
+
+Rough position stats:
+=====================
+
+pos.  | #of ex. | Clicked     | Booking     | 
+---------------------------------------------
+1-10  | 3487009 | 311295 (8%) | 208814 (6%) |
+11-20 | 2680141 | 76514 (2.8%)| 41623 (1.5%)|
+21-30 | 2470439 | 40939 (1.6%)| 19541 (0.8%)|
+31-40 | 1279941 | 14924 (1.1%)| 6615 (0.5%) |
+
+For non-random examples,
+pos.  | #of ex. | Clicked     | Booking     |   
+---------------------------------------------
+1-10  | 2427651 | 227728 (9%) | 198232 (8%) |
+11-20 | 1884447 | 47998 (2.5%)| 38598 (2.1%)|
+21-30 | 1744107 | 23179 (1.3%)| 17943 (1.1%)|
+31-40 | 921673  | 7811  (0.8%)| 5975 (0.6%) |
